@@ -43,6 +43,7 @@ const Exercises = ({ exercises, bodyPart, setExercises }) => {
       setExercises(exercisesData);
     };
     fetchExerciseData();
+    // eslint-disable-next-line
   }, [bodyPart]);
 
   return (
